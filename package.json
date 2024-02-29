@@ -1,0 +1,23 @@
+{
+  "name": "api-sqlze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "node --watch ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "pkg": "^5.8.1",
+    "sequelize": "^6.37.1"
+  },
+  "pkg": {
+    	"scripts": "./src/**/*.js"
+  }
+}
